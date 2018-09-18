@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #000000;
 }
 
 .parallax-container {
@@ -31,7 +31,7 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
+    /*position: absolute;*/
     top: 40%;
   }
   #index-banner .section {
@@ -41,6 +41,7 @@ p {
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
+	height: auto;
     top: 0;
   }
 }
